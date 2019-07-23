@@ -12,10 +12,19 @@
         {
             "id": 1,
          "project_name": "List Pagination and Filtering",
-         "description": "Using complex JavaScript DOM manipulation, and basic pagination, filtering and searching3",
+         "description": "Using complex JavaScript DOM manipulation, and basic pagination, filtering and searching",
          "technologies": ["HTML", "CSS", "JavaScript"],
          "live_link": "https://smatthews-nz.github.io/fsjs-techdegree-project2/",
          "github_link": "https://github.com/smatthews-nz/fsjs-techdegree-project2/",
+         "image_urls": ["/images/fsjsproject2.1.png"]
+        },
+        {
+            "id": 2,
+         "project_name": "Interactive Webform",
+         "description": "Using complex JavaScript DOM manipulation, and basic pagination, filtering and searching",
+         "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+         "live_link": "https://smatthews-nz.github.io/fsjs-techdegree-project3/",
+         "github_link": "https://github.com/smatthews-nz/fsjs-techdegree-project3/",
          "image_urls": ["/images/fsjsproject2.1.png"]
         }
     ]
