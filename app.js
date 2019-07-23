@@ -1,5 +1,11 @@
 //require express
 const express = require('express');
+//get data from data.json
+const data = require('./data.json');
+//get projects from data
+const {projects} = data;
+
+
 //create an express application
 const app = express();
 
@@ -11,7 +17,7 @@ app.use('/static', express.static('public'));
 
 //setting the route for index
 app.get('/', (req, res) =>{
-    res.render('index');
+    res.render('index', {projects});
 });
 
 //set the app to listen to port 3000

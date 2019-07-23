@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+         "id": 0,
+         "project_name": "Random Quote Generator",
+         "description": "Using basic JavaScript DOM manipulation and data structures to display a random quote",
+         "technologies": ["HTML", "CSS", "JavaScript"],
+         "live_link": "https://smatthews-nz.github.io/fsjs-techdegree-project1/",
+         "github_link": "https://github.com/smatthews-nz/fsjs-techdegree-project1",
+         "image_urls": ["/images/fsjsproject1.1.png"]
+        },
+        {
+            "id": 1,
+         "project_name": "List Pagination and Filtering",
+         "description": "Using complex JavaScript DOM manipulation, and basic pagination, filtering and searching3",
+         "technologies": ["HTML", "CSS", "JavaScript"],
+         "live_link": "https://smatthews-nz.github.io/fsjs-techdegree-project2/",
+         "github_link": "https://github.com/smatthews-nz/fsjs-techdegree-project2/",
+         "image_urls": ["/images/fsjsproject2.1.png"]
+        }
+    ]
+}
