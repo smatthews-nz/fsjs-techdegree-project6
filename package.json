@@ -1,0 +1,16 @@
+{
+  "name": "fsjs-techdegree-project6",
+  "version": "1.0.0",
+  "description": "A static node backend and JS front end portfolio website",
+  "main": "scripts.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Matthews",
+  "license": "ISC"
+}
