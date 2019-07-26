@@ -25,7 +25,25 @@
          "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
          "live_link": "https://smatthews-nz.github.io/fsjs-techdegree-project3/",
          "github_link": "https://github.com/smatthews-nz/fsjs-techdegree-project3/",
-         "image_urls": ["/images/fsjsproject2.1.png"]
+         "image_urls": ["/images/fsjs-project3.1.png"]
+        },
+        {
+            "id": 3,
+         "project_name": "OOP Phrase Hunter Game",
+         "description": "A broswer based word guessing game, built using object oriented principles.",
+         "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+         "live_link": "https://smatthews-nz.github.io/fsjs-techdegree-project4/",
+         "github_link": "https://github.com/smatthews-nz/fsjs-techdegree-project4/",
+         "image_urls": ["/images/fsjs-project4.1.png"]
+        },
+        {
+            "id": 4,
+         "project_name": "Public API Requests",
+         "description": "An employee directory built by communicating with a third-party API",
+         "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "API"],
+         "live_link": "https://smatthews-nz.github.io/fsjs-techdegree-project5/",
+         "github_link": "https://github.com/smatthews-nz/fsjs-techdegree-project5/",
+         "image_urls": ["/images/fsjs-project5.1.png"]
         }
     ]
 }

@@ -20,6 +20,10 @@ app.get('/', (req, res) =>{
     res.render('index', {projects});
 });
 
+app.get('/about', (req, res) => {
+    res.render('about');
+});
+
 //set the app to listen to port 3000
 app.listen(3000, () => {
     console.log('Project is running on port 3000');
