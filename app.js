@@ -1,7 +1,7 @@
 //require express
 const express = require('express');
 //get data from data.json
-const data = require('/home/sam/dev/fsjs-techdegree-project6/data.json');
+const data = require('./data.json');
 //get projects from data
 const {projects} = data;
 
@@ -20,15 +20,15 @@ app.use('/static', express.static('public'));
 ROUTING-------------------------------//
 */
 //setting the route for index
-const index = require('/home/sam/dev/fsjs-techdegree-project6/public/routes/index');
+const index = require('./routes/index');
 app.use(index);
 
 //setting about route
-const about = require('./public/routes/about.js');
+const about = require('./routes/about.js');
 app.use(about);
 
 //setting projects routes
-const projectRoutes = require('./public/routes/projects.js');
+const projectRoutes = require('./routes/projects.js');
 app.use(projectRoutes);
 /*
 END OF ROUTING-------------------------------//
