@@ -99,7 +99,7 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid black;
   padding-bottom: 40px;
 }
 
@@ -155,6 +155,6 @@ a:hover{
 }
 
 body{
-  background-color: #eaeaeb
+  background-color: #eaeaea;
 }
 
