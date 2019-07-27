@@ -1,9 +1,7 @@
 //require express
 const express = require('express');
-//get data from data.json
-const data = require('./data.json');
-//get projects from data
-const {projects} = data;
+//declare port
+const port = process.env.PORT || 3000;
 
 
 //create an express application
@@ -41,7 +39,7 @@ ERROR HANDLING-------------------------------//
 app.use((req, res, next) => {
     const error = new Error('Sorry, URL not found');
     error.status = 404;
-    console.log(error)
+    console.error(error)
     next(error);
 });
 
@@ -57,7 +55,7 @@ END OF ERROR HANDLING-------------------------------//
 */
 
 //set the app to listen to port 3000
-app.listen('3000', () => {
+app.listen( port, () => {
     console.log('Project is running on port 3000');
 });
 
