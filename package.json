@@ -2,16 +2,15 @@
   "name": "fsjs-techdegree-project6",
   "version": "1.0.0",
   "description": "A static node backend and JS front end portfolio website",
-  "main": "app.js",
+  "main": "./app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
   "author": "Sam Matthews",
   "license": "ISC",
   "engines": {
