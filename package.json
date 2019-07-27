@@ -2,7 +2,7 @@
   "name": "fsjs-techdegree-project6",
   "version": "1.0.0",
   "description": "A static node backend and JS front end portfolio website",
-  "main": "./app.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
