@@ -2,7 +2,7 @@
   "name": "fsjs-techdegree-project6",
   "version": "1.0.0",
   "description": "A static node backend and JS front end portfolio website",
-  "main": "scripts.js",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4"
