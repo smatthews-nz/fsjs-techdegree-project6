@@ -20,7 +20,7 @@ app.use('/static', express.static('public'));
 ROUTING-------------------------------//
 */
 //setting the route for index
-const index = require('/home/sam/dev/fsjs-techdegree-project6/public/routes');
+const index = require('/home/sam/dev/fsjs-techdegree-project6/public/routes/index');
 app.use(index);
 
 //setting about route
